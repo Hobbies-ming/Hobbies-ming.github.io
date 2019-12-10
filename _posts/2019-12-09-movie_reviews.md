@@ -1,9 +1,9 @@
 ---
 title: Ming の 影评
-tags: Movies
+tags: 电影 长期更新
 ---
 
-# 影评
+# 影评总集
 
 ## 一、日本
 
