@@ -2,6 +2,7 @@
 title: 名 の 影评
 tags: 电影 长期更新
 key: pid_movies
+author: MING
 ---
 
 ## 影评总集

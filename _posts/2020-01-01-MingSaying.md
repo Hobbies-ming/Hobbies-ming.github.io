@@ -2,6 +2,7 @@
 title: 名 の 悟
 tags: 感悟心得 长期更新
 key: pid_saying
+author: MING
 ---
 
 1. **毕其功于一役，效率最高，所谓趁热打铁。 &emsp;11/27/2019**
