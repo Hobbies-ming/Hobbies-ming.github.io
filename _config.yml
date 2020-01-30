@@ -13,7 +13,6 @@
 
 
 
-
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
@@ -22,24 +21,24 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : MING's Hobbies
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  一个记录个人爱好和思考的小站。
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: zh # the language of your site, default as "en"
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
+  type      : person # "person" (default), "organization"
+  name      : MING
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
+  bio       : 思考者/Thinker.
+  email     : 1203299890@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -49,13 +48,13 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : Hobbies-ming # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: Hobbies-ming/Hobbies-ming.github.io
 repository_tree: master
 
 
@@ -71,6 +70,7 @@ paths:
 ## => Post
 ##############################
 ## excerpt
+excerpt_type: html  ## no use, need set in the header of index.html
 excerpt_separator: <!--more-->
 
 ## license
@@ -78,7 +78,8 @@ license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4
 
 ## TOC
 toc:
-  selectors: # "h1,h2,h3" (default)
+  # selectors: # "h1,h2,h3" (default)
+  selectors: "h1,h2,h3,h4"
 
 
 ## => Markdown Enhancements
@@ -108,7 +109,8 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  # provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addtoany
 
   ## AddThis
   addthis:
@@ -118,21 +120,26 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  # provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: hobbies-ming # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    enable: true
+    # My GitHub Application Client ID, \
+    # login and return the token by callback pre-set blog url
+    clientID    : 35b27319a5c8dc57ac62 
+    # GitHub Application Client Secret
+    clientSecret: 7e7b26b08224817bf7096df4d08169451271703a
+    repository  : Hobbies-ming.github.io # GitHub repo to save comments
+    owner       : Hobbies-ming # GitHub repo owner
+    admin: [Hobbies-ming] # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
@@ -201,12 +208,14 @@ exclude:
   - /test
   - /vendor
 
+
+## => Global defaults
 defaults:
   - scope:
-      path: ""
-      type: posts
+      path: ""  ## "" means root dic, all files
+      type: posts  ## limited as posts
     values:
-      layout: article
+      layout: article  ## default is article layout
       sharing: true
       license: true
       aside:
