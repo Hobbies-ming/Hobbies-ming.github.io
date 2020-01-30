@@ -103,7 +103,9 @@ paginate_path: /page:num # don't change this unless for special need
 
 ## => Sources
 ##############################
-sources: # bootcdn (default), unpkg
+# sources: # bootcdn (default), unpkg
+## bootcdn error!!: archive.html:207 GET https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js net::ERR_CERT_COMMON_NAME_INVALID
+sources: unpkg  
 
 
 ## => Sharing
@@ -166,11 +168,11 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: default # "default" (default), false, "google", "custom"
+  provider: google # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
-    custom_search_engine_id: # Google Custom Search Engine ID
+    custom_search_engine_id: 013503325791986460636:uvwvaesnc4p # Google Custom Search Engine ID
 
 
 ## => Analytics
