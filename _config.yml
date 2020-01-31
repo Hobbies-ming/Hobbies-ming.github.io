@@ -160,8 +160,10 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id    : dtdMLq6BeXJdiipsUG5Lcim8-9Nh9j0Va # LeanCloud App id
-    app_key   : dt3X8JK0elarPTudnxkq9vnb # LeanCloud App key
+    # app_id    : dtdMLq6BeXJdiipsUG5Lcim8-9Nh9j0Va # LeanCloud App id
+    # app_key   : dt3X8JK0elarPTudnxkq9vnb # LeanCloud App key
+    app_id: Cw8GnoUU0qpEoaMvcKncNugm-gzGzoHsz # huabei node
+    app_key: 3zm5cwobEpiLe9YDX8tISRev # huabei node
     app_class : Count # LeanCloud App class
 
 
