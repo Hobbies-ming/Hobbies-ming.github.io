@@ -124,7 +124,7 @@ sharing:
 comments:
   # provider: false # false (default), "disqus", "gitalk", "valine", "custom"
   # provider: disqus  ## need ladder
-  provider: gittalk
+  provider: gitalk
 
   ## Disqus
   disqus:
