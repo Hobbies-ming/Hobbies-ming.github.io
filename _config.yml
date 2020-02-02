@@ -123,7 +123,8 @@ sharing:
 ##############################
 comments:
   # provider: false # false (default), "disqus", "gitalk", "valine", "custom"
-  provider: disqus
+  # provider: disqus  ## need ladder
+  provider: gittalk
 
   ## Disqus
   disqus:
@@ -170,7 +171,8 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: google # "default" (default), false, "google", "custom"
+  # provider: google # "default" (default), false, "google", "custom"
+  provider: default  ## google need ladder and no results
 
   ## Google Custom Search Engine
   google:
