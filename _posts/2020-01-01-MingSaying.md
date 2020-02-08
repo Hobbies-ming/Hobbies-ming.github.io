@@ -1,5 +1,5 @@
 ---
-title: 名 の 悟
+title: 名 の 明悟
 tags: 感悟心得 长期更新
 key: pid_saying
 author: MING
