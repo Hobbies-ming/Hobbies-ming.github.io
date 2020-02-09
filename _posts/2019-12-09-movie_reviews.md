@@ -5,9 +5,7 @@ key: pid_movies
 author: MING
 ---
 
-## 影评总集
-
-### 一、日本
+### 一、日本地区
 
 1. **海街日记**（Kamakura Diary）
 
@@ -95,7 +93,7 @@ author: MING
    >
    > **感受**：
 
-### 二、大陆
+### 二、中国大陆
 
 1. **港囧(Lost In Hong Kong)** &emsp;&emsp;&emsp;/Written in 01.05.2020
 
