@@ -7,6 +7,8 @@ author: MING
 
 ## 无间道
 
+![cover](/screenshots/movie-wujiandao/wjd-cover.jpg)
+
 <!--more-->
 
 ### 1. 基本信息
@@ -69,36 +71,36 @@ author: MING
 
 重案组从陈永仁手中获悉一批毒品交易情报，锁紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验。(摘自豆瓣[<sup>1</sup>](#db))
 
-### 3. 精彩场面
+### 3. 高光场面
 
 * 黑帮卧底的高级督察刘建明想改邪归正，被卧底警察陈永仁发现其真实身份，陈为取得证明己身的档案，遂约刘在天台对峙[<sup>2</sup>](#bili-wjd)。
 
-![无间道](https://raw.githubusercontent.com/Hobbies-ming/Hobbies-ming.github.io/master/screenshots/movie-wujiandao/2020-02-09%2015_38_54-Greenshot.png)
+![无间道](/screenshots/movie-wujiandao/2020-02-09%2015_38_54-Greenshot.png)
 
-  ![无间道](https://raw.githubusercontent.com/Hobbies-ming/Hobbies-ming.github.io/master/screenshots/movie-wujiandao/2020-02-09 15_39_48-Greenshot.png)
+  ![无间道](/screenshots/movie-wujiandao/2020-02-09 15_39_48-Greenshot.png)
 
-  ![无间道](https://raw.githubusercontent.com/Hobbies-ming/Hobbies-ming.github.io/master/screenshots/movie-wujiandao/2020-02-09 15_39_58-Greenshot.png)
+  ![无间道](/screenshots/movie-wujiandao/2020-02-09 15_39_58-Greenshot.png)
 
-  ![无间道](https://raw.githubusercontent.com/Hobbies-ming/Hobbies-ming.github.io/master/screenshots/movie-wujiandao/2020-02-09 15_41_18-Greenshot.png)
+  ![无间道](/screenshots/movie-wujiandao/2020-02-09 15_41_18-Greenshot.png)
 
 ### 4. 经典语录
 
-* 电影时刻 11.15 - 卧底难当
+* 高光时刻 11.15 - 卧底难当
 
   > 黄Sir: 你忘记自己是好人还是坏人了？
   >
   > 陈永仁：**明明说好了三年，三年之后又三年，三年之后又三年，就快十年了，老大**！
 
-* 电影时刻 40.20 - 有苦难言
+* 高光时刻 40.20 - 有苦难言
 
   > 陈永仁对李心儿说：**告诉你一个秘密，不要告诉别人。其实我是警察**。
   >
 
-* 电影时刻 88.10 - 视死如归
+* 高光时刻 88.10 - 视死如归
 
-  > 刘建明打给Mary，Mary未接听后留言：**Mary 对不起，我选了做好人。我现在就去见陈永仁，不管怎么样，我会恢复他的身份，档案就在我的计算机里，密码是你生日。**
+  > 刘建明打给Mary，Mary未接听后留言：Mary 对不起，我选了做好人。**我现在就去见陈永仁，不管怎么样，我会恢复他的身份**，档案就在我的计算机里，密码是你生日。
 
-* 电影时刻 91.10 - 天台对峙，命运弄人
+* 高光时刻 91.10 - 天台对峙，命运弄人
 
   > 刘：给我一个机会
   >
@@ -116,7 +118,7 @@ author: MING
 
 ### 5. 观影感受
 
-经典影片的影评太多了，我也不喜欢长篇大论，简单聊聊了。”无间“是佛教用语，八大地狱之最，乃无空间、无时间、无间断之义，入者受永恒之苦。”无间道“即通往无间地狱之路，也就是常说的阿鼻地狱 (这个是音译)。曾志伟演的黑帮老大喜怒无常，令人胆寒；年轻冠希哥和余文乐很帅，但有不一样，一个带点痞气，一个很阳光；黑白两道的Boss 追查各自内鬼时，相继身亡；王牌卧底，天台对峙，善恶难辨。谁料命运弄人，他杀了他，而我杀了他为他报仇，最后在无间地狱的路上渐走渐远。
+经典影片的影评很多，我也不喜欢长篇大论，简单聊聊了。”无间“是佛教用语，八大地狱之最，乃无空间、无时间、无间断之义，入者受永恒之苦。”无间道“即通往无间地狱之路，也就是常说的阿鼻地狱 (这个是音译)。曾志伟演的黑帮老大喜怒无常，令人胆寒；年轻冠希哥和余文乐很帅，但有不一样，一个带点痞气，一个很阳光；黑白两道的Boss 追查各自内鬼时，相继身亡；王牌卧底，天台对峙，善恶难辨。谁料命运弄人，他杀了他，而我杀了他为他报仇，最后在无间地狱的路上渐走渐远。
 
 ### 参考
 
@@ -126,7 +128,7 @@ author: MING
 <div id="bili-wjd"></div>
 [2] [无间道之天台对峙](https://www.bilibili.com/video/av87812707/)
 
-[3] [ 再见，警察 电影原声](https://music.163.com/#/song?id=74537)
+[3] [ 再见, 警察 电影原声](https://music.163.com/#/song?id=74537)
 
 <br/>
 
@@ -134,5 +136,6 @@ author: MING
 引用链接 example
 
 [caption][db]
+
 [db]: https://movie.douban.com/subject/1307914/  "xxx"
 -->
