@@ -27,7 +27,7 @@ key: page-about
 author: MING
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+<!--![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)-->
 
 ## [一个记录个人思考和爱好的小站](https://hobbies-ming.github.io/)
 
