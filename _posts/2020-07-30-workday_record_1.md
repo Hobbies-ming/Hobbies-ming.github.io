@@ -1,6 +1,6 @@
 ---
 title: 工作日の印象 001
-tags: 技术 SSL LINUX
+tags: 技术 SSL mount LINUX
 key: workday-001
 author: MING
 ---
@@ -26,13 +26,34 @@ author: MING
   ---pip.conf---
   ```
 
-* Linux 挂载命令 **mount** 
+* **Linux 挂载命令 mount** 
 
   ```shell
   ## mount windows share dir to linux
   ## -t denotes type of file system, e.g., ext3/tmpfs
-  $ mount -t cifs //ip/path-to-dir ~/linux-dir -o username=$user,noexec
+  ## cifs - common internet file system
+  $ sudo mount -t cifs //ip/path-to-dir ~/linux-dir -o username=$user,noexec
   ```
 
-  
+  * **ERROR: mount: cannot mount read-only**
 
+    ```shell
+    ## 2020/8/3
+    ## you need to install the cifs-utils package
+    sudo apt install cifs-utils
+    ```
+
+  * **ERROR: mount error(2): No such file or directory**
+
+    ```shell
+    ## try to install package keyutils
+    ## maybe cifs cannot find the keyutils
+    sudo apt install keyutils
+    ```
+
+  * **ERROR: mount error(13): Permission denied**
+
+    ```shell
+    ## use option "sec=ntlm" to set security mode which decides password encryption
+    sudo mount -t cifs //ip/path-to-dir ~/linux-dir -o sec=ntlm,username=$user,noexec
+    ```
