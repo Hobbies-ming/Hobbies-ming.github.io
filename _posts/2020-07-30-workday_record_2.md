@@ -11,8 +11,10 @@ author: MING
   ## check who is using 'apt'
   ## -i ignores uppercase/lowercase
   ps aux | grep -i apt
+  
   ## you find apt.systemd.daily update, 这是一个后台自动运行的系统更新的守护进程
   sudo kill $pid
+  
   ## check again by "ps aux | grep -i apt", if not, force to kill it
   sudo kill -9 pid
   ```
@@ -58,6 +60,7 @@ author: MING
   ```shell
   ## -v, verbose, 打印拷贝文件过程
   cp -v a b
+  
   ## -r 递归复制目录到目标位置下,若目标不存在则类似复制为目标
   cp -r dir1 dir2
   ```
