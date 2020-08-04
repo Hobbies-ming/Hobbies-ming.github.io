@@ -2,6 +2,8 @@
 title: 工作日の印象 003
 tags: 技术 nfs Ubuntu mount LINUX
 key: workday-003
+excerpt_type: html
+excerpt_separator: <!--more-->
 author: MING
 ---
 
@@ -16,6 +18,7 @@ author: MING
    ## client end
    sudo apt-get install nfs-common
    ```
+<!--more-->
 
 2. **服务主机配置 NFS exports 文件**
 

@@ -2,6 +2,8 @@
 title: 工作日の印象 002
 tags: 技术 apt Ubuntu源 tar cp LINUX
 key: workday-002
+excerpt_type: html
+excerpt_separator: <!--more-->
 author: MING
 ---
 
@@ -18,7 +20,7 @@ author: MING
   ## check again by "ps aux | grep -i apt", if not, force to kill it
   sudo kill -9 pid
   ```
-
+<!--more-->
 * **Ubuntu16.04 更换清华源**
 
   ```shell

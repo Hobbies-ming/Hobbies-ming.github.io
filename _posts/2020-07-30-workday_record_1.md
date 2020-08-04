@@ -2,6 +2,8 @@
 title: 工作日の印象 001
 tags: 技术 SSL mount LINUX
 key: workday-001
+excerpt_type: html
+excerpt_separator: <!--more-->
 author: MING
 ---
 
@@ -25,7 +27,7 @@ author: MING
                  files.pythonhosted.org
   ---pip.conf---
   ```
-
+<!--more-->
 * **Linux 挂载命令 mount** 
 
   ```shell
