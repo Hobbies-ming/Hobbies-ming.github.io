@@ -5,8 +5,6 @@ key: workday-003
 author: MING
 ---
 
-## Shaa between two linux hosts by NFS
-
 ## 在两台 Linux 主机之间共享文件夹
 
 1. **安装 NFS (Network File System)** 
