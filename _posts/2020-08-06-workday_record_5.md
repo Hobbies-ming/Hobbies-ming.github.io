@@ -1,6 +1,6 @@
 ---
 title: 工作日の印象 005
-tags: 技术 unzip find locate git-checkout LINUX
+tags: 技术 LINUX GIT unzip find locate git-checkout
 key: workday-005
 excerpt_type: html
 excerpt_separator: <!--more-->
