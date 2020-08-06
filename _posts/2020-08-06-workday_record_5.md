@@ -1,0 +1,73 @@
+---
+title: 工作日の印象 005
+tags: 技术 unzip find locate git-checkout LINUX
+key: workday-005
+excerpt_type: html
+excerpt_separator: <!--more-->
+author: MING
+---
+
+* **unzip 指定解压路径**
+
+  ```shell
+  $ unzip example.zip -d /target/path/
+  ```
+
+* **locate 命令**
+
+  ```shell
+  ## locate 查询系统预建的文件索引数据库（ubuntu 在/var/lib/mlocate.db）
+  ## 查询速度快，但可能不一定和当前文件系统同步
+  $ locate filename
+  
+  ## 使用正则表达式
+  $ locate -r 're'
+  
+  ## 忽略大小写
+  $ locate -i filename
+  
+  ## 手动更新数据库，会遍历整个文件系统，非常费时
+  $ updatedb
+  ```
+<!--more-->
+* **find 命令**
+
+  ```shell
+  ## find 在指定目录下查找文件
+  ## 当前目录下查找所有jpg图片
+  $ find . -name "*.jpg"
+  
+  ## 将被拒绝访问的目录清理
+  $ find . -name "*.jpg" 2>/dev/null
+  
+  ## 忽略大小写
+  $ find . -iname "*.gif"
+  
+  ## 正则表达式，必须匹配一个路径而不是文件名，所以前面加 .*/
+  $ find . -regex ".*/[a-z|-]*\.d"
+  ```
+
+* **git checkout**
+
+  ```shell
+  ## 用于切换分支，撤回工作区下的修改
+  ## 查看所有分支和当前分支(-v 可以看到最近一次提交)
+  $ git branch -a
+  $ git branch -v
+  
+  ## 创建分支，再切换分支（实际是移动HEAD指针）
+  $ git branch dev
+  $ git checkout dev
+  
+  ## 创建并切换
+  $ git checkout -b dev
+  
+  ## 用版本库或者缓存区刷新（检出）工作区，会优先使用缓存区
+  ## 如果之前add过，则需要使用 reset 命令
+  $ git checkout .
+  
+  ## 撤回某一文件的修改
+  $ git checkout -- filename
+  ```
+
+  
