@@ -56,6 +56,7 @@ author: MING
   $ git branch -v
   
   ## 创建分支，再切换分支（实际是移动HEAD指针）
+  ## checkout分支会刷新工作区
   $ git branch dev
   $ git checkout dev
   
@@ -68,6 +69,29 @@ author: MING
   
   ## 撤回某一文件的修改
   $ git checkout -- filename
+```
+  
+
+* **git fetch && git pull**
+
+  ```shell
+  ## fetch 去取回远程主机的所有分支更新到本地远程分支
+  $ git fetch
+  
+  ## 检出远程分支或tag
+  $ git checkout br-or-tag
+  
+  ## 将远程分支的最新更新合并到当前对应分支,确保工作区clean
+  $ git merge br
+  
+  ## clean 工作区(删除未跟踪的文件/目录), -n 选项打印会被删除的文件，-f force，-d 选项同时删除文件夹
+  $ git clean -n
+  $ git clean -f
+  $ git clean -fd
+  $ git clean -fd -n
+  
+  ## git pull 先fetch再merge，但仍有区别，建议不要用
+  $ git pull
   ```
 
   
