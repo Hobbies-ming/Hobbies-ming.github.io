@@ -10,7 +10,8 @@ author: MING
 * 如果两台 LINUX 主机无法进行 NFS 挂载，在服务端安装 Samba 模拟windows，客户端即可通过 cifs 挂载目标位置
 
 * 一个更加简单的方法是使用 sshfs，只要两台机器支持ssh连接即可
-<!-more->
+  <!--more-->
+
   ```shell
   ## sshfs 原理是基于SFTP进行远程连接并访问
   $ sshfs user@host:share/ host_share/
