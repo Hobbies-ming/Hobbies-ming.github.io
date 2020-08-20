@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 author: MING
 ---
 
-* np.tofile() / np.fromfile()
+* **array.tofile() / np.fromfile()**
 
   ```python
   ## 将数组数据以二进制写入文件，不适合object类型数据，没有数组元信息如形状、元素类型
@@ -17,7 +17,7 @@ author: MING
   > b= b.reshape((3,4)) ## 还原原数据
   ```
 <!--more-->
-* np.save() / np.load()
+* **np.save() / np.load()**
 
   ```python
   ## np 专有的二进制格式，保存为后缀名.npy文件中
@@ -26,7 +26,7 @@ author: MING
   > c= np.load('test.npy') ## 不需要reshape
   ```
 
-* make / cmake
+* **make / cmake**
 
   ```shell
   ## 对于单个源文件，用 gcc 编译即可
@@ -35,7 +35,7 @@ author: MING
   ## 最终手写更为简单的 cmakelists.txt 文件
   ```
 
-* hexdump
+* **hexdump**
 
   ```shell
   ## 十六进制格式查看二进制文件
