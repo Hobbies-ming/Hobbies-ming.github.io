@@ -1,6 +1,6 @@
 ---
 title: 工作日の印象 005
-tags: 技术 LINUX GIT unzip find locate git-checkout
+tags: 技术 LINUX GIT unzip find locate checkout fetch
 key: workday-005
 excerpt_type: html
 excerpt_separator: <!--more-->
@@ -55,13 +55,17 @@ author: MING
   $ git branch -a
   $ git branch -v
   
-  ## 创建分支，再切换分支（实际是移动HEAD指针）
+  ## 基于当前分支创建新的本地分支，再切换分支（实际是移动HEAD指针）
   ## checkout分支会刷新工作区
   $ git branch dev
   $ git checkout dev
   
-  ## 创建并切换
+  ## 创建并切换到新分支，上面的命令合并
   $ git checkout -b dev
+  
+  ## 创建后推送到远程分支，没有会自动创建对应远程分支
+  $ git push origin dev:dev
+  $ git push origin dev
   
   ## 用版本库或者缓存区刷新（检出）工作区，会优先使用缓存区
   ## 如果之前add过，则需要使用 reset 命令
@@ -69,8 +73,7 @@ author: MING
   
   ## 撤回某一文件的修改
   $ git checkout -- filename
-```
-  
+  ```
 
 * **git fetch && git pull**
 

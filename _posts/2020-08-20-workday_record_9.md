@@ -16,8 +16,11 @@ author: MING
   ## 差异按小节组织，以@@开头如@@-4,6 +4,7@@
   ## --- 开头行表示源文件特有，+++ 开头行表示目标文件特有
   $ git diff br_a br_b src/example.py
+  
+  ## 比较当前工作区改动和上一次提交版本的区别
+  $ git diff
   ```
-<!--more-->
+  <!--more-->
 * **Git 使用 commit ID 查找某次提交详情的两种方法**
 
   ```shell
@@ -34,7 +37,7 @@ author: MING
   
 * **Python argparse 模块**
 
-  ```
+  ```python
   ## 支持位置参数和选项参数
   > import argparse
   > parser= argparse.ArgumentParser(description='process some integers')
