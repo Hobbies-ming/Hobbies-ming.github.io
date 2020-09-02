@@ -56,9 +56,12 @@ author: MING
   $ git branch -v
   
   ## 基于当前分支创建新的本地分支，再切换分支（实际是移动HEAD指针）
-  ## checkout分支会刷新工作区
+  ## checkout分支会刷新工作区,如果工作区修改过，修改的文件不会刷新
   $ git branch dev
   $ git checkout dev
+  
+  ## 强制覆盖工作区
+  $ git checkout -f dev
   
   ## 创建并切换到新分支，上面的命令合并
   $ git checkout -b dev
